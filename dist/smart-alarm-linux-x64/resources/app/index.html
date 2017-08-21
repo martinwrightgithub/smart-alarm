@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <script>
+        function startTime() {
+        var today = new Date();
+        var h = today.getHours();
+        var m = today.getMinutes();
+        m = checkTime(m);
+        document.getElementById('txt').innerHTML =
+        h + ":" + m;
+        var t = setTimeout(startTime, 500);
+    }
+    function checkTime(i) {
+        if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+        return i;
+    }
+  </script>
+
+  </head>
+    <body style="text-align:center;margin-top: 100px;" onload="startTime()">
+        <div style="font-size:100px;font-weight:bold;" id="txt"></div>
+        <span style="position:absolute;bottom:5px;color:#666;">basingstokemakerspace.org.uk</span>
+  </body>
+</html>
+

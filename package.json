@@ -1,0 +1,12 @@
+{
+  "name": "smart-alarm",
+  "version": "0.1.0",
+  "main": "main.js",
+  "scripts": {
+    "build-linux": "electron-packager . smart-alarm --electron-version=1.7.5 --platform=linux --out ./dist --overwrite"
+  },
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "electron-packager": "^8.7.2"
+  }
+}
