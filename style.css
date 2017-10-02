@@ -1,0 +1,25 @@
+body {
+    text-align:center;
+    margin-top: 30px;
+    overflow:hidden;
+    background-image:url('./LA-in-sun_mid.jpg');
+}
+@font-face {
+    font-family: "Budge";
+    src: url("BungeeLayers-Regular-webfont.woff") format("woff");
+}
+#time {
+    font-family: "Budge"; 
+    font-size:100px;
+    color:#FFF
+}
+
+#website {
+    position:absolute;
+    bottom:5px;
+    color:#FFF;
+    font-weight:12px;
+    font-weight:bold;
+    font-family:monospace;
+}
+
